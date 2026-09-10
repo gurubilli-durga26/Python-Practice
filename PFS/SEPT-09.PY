@@ -88,6 +88,16 @@ data.update({'batch':'PFS-VSP-007'})
 batch(**data)
 
 #Task:create a function with the usage of *args & **kwargs.
+#using *args,kwargs
+def order(*items, **customer):
+    """Customer details using *args,**kwargs"""
+    print("Items:")
+    for item in items:#To access the items one by one 
+        print(item)#For Accessing the items
+    print("Customer Details:")
+    for key, value in customer.items():#For accessing the customer details, .items():For accessing of both key,value
+         print(f"{key} : {value}")
+order("Laptop","Mouse","Keyboard",name="Meghana",city="Vizag")
 
 
 
