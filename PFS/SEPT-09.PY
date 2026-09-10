@@ -88,7 +88,6 @@ data.update({'batch':'PFS-VSP-007'})
 batch(**data)
 
 #Task:create a function with the usage of *args & **kwargs.
-#using *args,kwargs
 def order(*items, **customer):
     """Customer details using *args,**kwargs"""
     print("Items:")
