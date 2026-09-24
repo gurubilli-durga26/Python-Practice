@@ -1,0 +1,8 @@
+cd "C:\Users\Gautham Sai\Documents\Python Full Stack at Codegnan\CIRCLE-UP\server"
+npm.cmd install
+npm.cmd run dev
+
+
+cd "C:\Users\Gautham Sai\Documents\Python Full Stack at Codegnan\CIRCLE-UP\client"
+npm.cmd install
+npm.cmd run dev
